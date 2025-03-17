@@ -1,0 +1,35 @@
+    1  cleap
+    2  clear
+    3  cd
+    4  cd GIT1
+    5  clear
+    6  cd
+    7  cd GIT1
+    8  clear
+    9  touch text_ignore.txt
+   10  nano.gitignore
+   11  nano .gitignore
+   12  git status
+   13  cd GIT1 HW_10
+   14  cd HW_10
+   15  touch text_ignore.txt
+   16  nano .gitignore
+   17  git status
+   18  git add text_ignore.txt
+   19  git commit -m "New file"
+   20  touch mein_test.txt
+   21  git add mein_test.txt
+   22  git status
+   23  git commit -m "New modified"
+   24  git checkout  -b branch_develop
+   25  git checkout branch_develop
+   26  touch develop_test.txt
+   27  git add develop_test.txt
+   28  git status
+   29  git commit -m "New modified"
+   30  git checkout mein
+   31  git checkout branch_main
+   32  git checkout main
+   33  git merge branch_develop
+   34  git log
+   35   history > command_list.csv
