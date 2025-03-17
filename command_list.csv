@@ -6,6 +6,7 @@
     6  cd
     7  cd GIT1
     8  clear
+    9 git clone HW_10
     9  touch text_ignore.txt
    10  nano.gitignore
    11  nano .gitignore
